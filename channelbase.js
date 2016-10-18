@@ -1,3 +1,32 @@
+channelbaseaetius.js
+Details
+Activity
+channelbaseaetius.js
+Sharing Info
+
+General Info
+Type
+Javascript
+Size
+39 KB (40,319 bytes)
+Storage used
+39 KB (40,319 bytes)
+Location
+My Drive
+Owner
+me
+Modified
+9:01 AM by me
+Opened
+9:01 AM by me
+Created
+9:01 AM with Google Drive Web
+Description
+Add a description
+Download permissions
+Viewers can download
+
+
 /*
 |Thanks to: Kuer, Xaekai[xaemae], ss7(supersaw7) and kenblu24
 |Theme by BILL(2) , You can find me on the cytu.be/r/southparkhd channel
@@ -422,7 +451,7 @@ return div;
 }
 
 $(document).ready(function() {
-$('<link id="chanfavicon" href="//i.imgur.com/WFrdUdF.png" type="image/x-icon" rel="shortcut icon" />')
+$('<link id="chanfavicon" href="//https://s10.postimg.org/u7xf1refd/Swastika.png" type="image/x-icon" rel="shortcut icon" />')
 .appendTo("head");});
 
 // The HorizontalScroller Class accepts a jQuery object as its only argument
@@ -681,8 +710,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-53755606-1', 'auto');
 ga('send', 'pageview');
 
-//var bgColorArray = ['//i.imgur.com/zFlCqZP.jpg','//i.imgur.com/l622wXI.jpg','//i.imgur.com/mTMoAeX.jpg','//i.imgur.com/lpFfKYs.jpg','//i.imgur.com/02154Tn.jpg','//i.imgur.com/y2tW3bM.jpg','//i.imgur.com/GNHovtU.jpg','//i.imgur.com/m101zRQ.jpg','//i.imgur.com/c4U0NJ9.jpg','//i.imgur.com/BN1Yisy.jpg','//i.imgur.com/qmjkll4.jpg','//i.imgur.com/2jSsg8N.jpg'],
-var bgColorArray = ['//i.imgur.com/dgUiWa8.jpg','//i.imgur.com/Kvms3J0.jpg'],
+//var bgColorArray = ['//http://www.dream-wallpaper.com/free-wallpaper/nature-wallpaper/nordic-scenery-wallpaper/1920x1200/free-wallpaper-2.jpg'],
     selectBG = bgColorArray[Math.floor(Math.random() * bgColorArray.length)];
 $('#backg').css('background', 'url(' + selectBG + ')')
 var vplayer = videojs("ytapiplayer")
