@@ -451,7 +451,7 @@ return div;
 }
 
 $(document).ready(function() {
-$('<link id="chanfavicon" href="//https://s10.postimg.org/u7xf1refd/Swastika.png" type="image/x-icon" rel="shortcut icon" />')
+$('<link id="chanfavicon" href="//s10.postimg.org/u7xf1refd/Swastika.png" type="image/x-icon" rel="shortcut icon" />')
 .appendTo("head");});
 
 // The HorizontalScroller Class accepts a jQuery object as its only argument
@@ -710,7 +710,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-53755606-1', 'auto');
 ga('send', 'pageview');
 
-//var bgColorArray = ['//http://www.dream-wallpaper.com/free-wallpaper/nature-wallpaper/nordic-scenery-wallpaper/1920x1200/free-wallpaper-2.jpg'],
+//var bgColorArray = ['//www.dream-wallpaper.com/free-wallpaper/nature-wallpaper/nordic-scenery-wallpaper/1920x1200/free-wallpaper-2.jpg'],
     selectBG = bgColorArray[Math.floor(Math.random() * bgColorArray.length)];
 $('#backg').css('background', 'url(' + selectBG + ')')
 var vplayer = videojs("ytapiplayer")
