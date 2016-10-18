@@ -709,7 +709,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 ga('create', 'UA-53755606-1', 'auto');
 ga('send', 'pageview');
-
+var bgColorArray = ['i.imgur.com/98bfQ3N.jpg','//i.imgur.com/1gY57B7.png','//i.imgur.com/K18EuLv.png','//i.imgur.com/1mBwFMy.jpg','//i.imgur.com/ANhEHCn.jpg','//i.imgur.com/1ypw6u0.jpg','//i.imgur.com/JYOMZGAh.jpg','//i.imgur.com/fDxkL9d.jpg','//i.imgur.com/tlX6erS.jpg'],
 //var bgColorArray = ['//i.imgur.com/zFlCqZP.jpg','//i.imgur.com/l622wXI.jpg','//i.imgur.com/mTMoAeX.jpg','//i.imgur.com/lpFfKYs.jpg','//i.imgur.com/02154Tn.jpg','//i.imgur.com/y2tW3bM.jpg','//i.imgur.com/GNHovtU.jpg','//i.imgur.com/m101zRQ.jpg','//i.imgur.com/c4U0NJ9.jpg','//i.imgur.com/BN1Yisy.jpg','//i.imgur.com/qmjkll4.jpg','//i.imgur.com/2jSsg8N.jpg'],
     selectBG = bgColorArray[Math.floor(Math.random() * bgColorArray.length)];
 $('#backg').css('background', 'url(' + selectBG + ')')
